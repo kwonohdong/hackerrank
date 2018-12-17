@@ -13,7 +13,7 @@ class Difference:
                 if abs(i - j) not in result:
                     result.append(abs(i - j))
         
-        Difference.maximumDifference = sorted(result, reverse=True)[0]
+        self.maximumDifference = sorted(result, reverse=True)[0]
 
 # End of Difference class
 
